@@ -1,0 +1,2 @@
+docker exec -it mongo_commands_mongo_1 sh
+mongo

@@ -1,0 +1,3 @@
+mongod --help
+mongod --dbpath <path>
+mongod --logpath <path>/<log file name>

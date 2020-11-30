@@ -42,3 +42,13 @@ db.createCollection('posts', {
     },
   },
 });
+
+// insert item
+db.posts.insertOne({
+  title: 'my fist post!',
+  text: 'this is my first post',
+  tags: ['new', 'tech'],
+  comments: [{ text: 'i like this post!' }],
+});
+
+db.posts.find().pretty();

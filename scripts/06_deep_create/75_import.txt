@@ -1,1 +1,3 @@
 mongoimport tv-shows.json -d movieData -c movies --jsonArray --drop
+
+mongoimport users.json -d userData -c users --jsonArray --drop
